@@ -1,0 +1,35 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+html{
+    /* line-height: 1.6rem; */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.app-container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.img{
+    height: 350px;
+    margin: 24px 0;
+}
+
+.app-container{
+    margin-top: 80px;
+}
+
+.title-content{
+    margin: 24px 0;
+}
+
+.title-content--item{
+    margin: 16px 0;
+}
