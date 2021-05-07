@@ -10,7 +10,7 @@
 .box{
     position: relative;
     width: 375px;
-    height: 780px;
+    height: 792px;
     margin: 0 30px;
     background-color: #fff;
     display: flex;
@@ -85,6 +85,7 @@
 
 .action-sheet__title p{
    margin-bottom: 1.8rem;
+   line-height: 24px;
 }
 
 .description{
@@ -139,7 +140,7 @@
 
 .spacing-border{
     width: 136px;
-    height:6px;
+    height:5px;
     border-radius: 3px;
     background-color: #000;
 }
