@@ -1,0 +1,152 @@
+.app{
+    padding: 60px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 375px;
+    height: 780px;
+    margin: 0 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 3px #ccc;
+}
+
+.status-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status__time{
+    font-size:1.6rem;
+    font-weight:bold;
+}
+
+.status__Utilities i{
+    font-size:1.4rem;
+    font-weight:bold;
+    margin-left: 2px;
+}
+
+.header__icon{
+    /* position: absolute; */
+    left: 0px;
+    right: 0px;
+    top: 0px; 
+    bottom: 0px;
+}
+
+.success,
+.fail{
+    height: 450px;
+    width:375px;
+    /* padding-bottom: 362px; */
+    /* position: absolute; */
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.action-sheet{
+    position: absolute; 
+    left: 0px;
+    right: 0px;
+    top: 270px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(241, 247, 247, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.action-sheet__title{
+    padding-top: 90px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.action-sheet__title p{
+   margin-bottom: 1.8rem;
+}
+
+.description{
+    text-align: center;
+    padding: 0 32px;
+    margin-top:6px;
+}
+
+.description span{
+    color: rgb(59, 57, 57);
+    font-weight: 400;
+    font-size: 16px;
+    line-height:28px;
+}
+
+.choice{
+    margin-top:50px;
+}
+
+.choice__title{
+    text-align: center;
+    font-size:14px;
+    font-weight: bold;
+    margin-bottom:18px;
+}
+
+.choice__options{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    width: 196px;
+}
+
+.choice__options--icon{
+    width: 48px;
+    height:48px;
+    background-color: #EFF1F6;
+    border-radius: 16px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.choice__options--icon:hover{
+    background-color: rgb(233, 235, 241);
+}
+
+.choice__options--icon i{
+    font-size:2.4rem;
+    line-height:48px;
+    color:#CDD3E2;
+}
+
+.spacing-border{
+    width: 136px;
+    height:6px;
+    border-radius: 3px;
+    background-color: #000;
+}
+
+.footer{
+    margin-top:28px;
+    margin-bottom:8px;
+    position: absolute;
+    bottom: 0;
+}
