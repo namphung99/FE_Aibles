@@ -1,0 +1,151 @@
+@media(min-width:768px){
+
+    /* default */
+
+    .hide-on-pc{
+        display: none;
+    }
+
+   
+}
+
+@media(max-width:767px){
+
+    /* default */
+
+    .container{
+        max-width: 747px;
+    }
+
+    .hide-on-mobile{
+        display: none;
+    }
+
+
+    .contact--mobile{
+        margin: 0 10px;
+    }
+
+    .info{
+        margin:0;
+    }
+
+    .info__description,
+    .info__description--main,
+    .info__description--sub
+    {
+        text-align: center;
+    }
+
+    .info__description--main{
+        font-size:3.2rem;
+        line-height:40px;
+    }
+
+    .info__avt{
+        justify-content:center;
+        padding-left: 0;
+    }
+
+    .info__description--btn{
+        margin-bottom:58px;
+    }
+
+    .recent-posts--text{
+        font-size: 1.8rem;
+    }
+    
+    .card-group{
+        margin:0 10px;
+    }
+
+    .card-item__title{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .card-item__time{
+        font-size: 16px;
+        line-height: 23px;
+        /* padding-right: 0px; */
+    }
+
+    .card-item__time--date{
+        padding-right: 48px;
+    }
+
+    .card-item__time::after{
+        position: absolute;
+        content: "";
+        height:20px;
+        width:1px;
+        background-color:var(--dark-color);
+        top: 3px;
+        left: 110px;
+        /* transform: translateX(-50%); */
+    }
+
+    .card-item__description{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .card__content{
+        padding-left: 0px;
+    }
+
+    .feature-works{
+        padding:0 18px;
+    }
+
+    .feature-works__title{
+        text-align: center;
+    }
+
+    .card__image img{
+        width:340px;
+        height:230px;
+    }
+
+    .card__content--title {
+        font-weight: bold;
+        font-size: 2.4rem;
+        line-height: 30px;
+    }
+
+        
+    .card__content--time {
+        display: flex;
+        margin-top: 16px;
+        margin-bottom:24px;
+    }
+
+    .card__content--date {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.6rem;
+        line-height: 25px;
+        background-color:#142850;
+        color: #fff;
+        width: 62px;
+        height: 25px;
+        text-align: center;
+        border-radius:15px;
+    }
+
+    .card__content--text {
+        margin-left:26px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 25px;
+        color: var(--light-color);
+    }
+
+    .card__content--description{
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 23px;
+    }
+}
