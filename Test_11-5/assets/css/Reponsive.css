@@ -28,18 +28,19 @@
 
     .info{
         margin:0 10px;
-    }
-
-    .info__description,
-    .info__description--main,
-    .info__description--sub
-    {
         text-align: center;
     }
 
     .info__description--main{
         font-size:3.2rem;
         line-height:40px;
+    }
+
+    .info__description--sub{
+        /* margin-right: 0 !important; */
+        width: 100%;
+        display:flex;
+        justify-content: center;
     }
 
     .info__avt{
@@ -51,8 +52,14 @@
         margin-bottom:58px;
     }
 
+    .recent-posts__title{
+       display: flex;
+       justify-content: center;
+    }
+
     .recent-posts--text{
         font-size: 1.8rem;
+        text-align: center;
     }
     
     .card-group{
@@ -100,6 +107,10 @@
 
     .feature-works__title{
         text-align: center;
+    }
+
+    .card__image{
+        margin-right: 0;
     }
 
     .card__image img{
